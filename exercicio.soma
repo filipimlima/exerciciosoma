@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		int A , B , soma;
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println ("Digite o primeiro numero ");		
+		A = sc.nextInt();
+		System.out.println ("Digite o segundo numero ");
+		B = sc.nextInt();
+		
+		soma = A + B;
+		
+		System.out.println ("A soma dos valores é " + soma);
+				
+		sc.close ();
+		
+		
+	}
+
+}
